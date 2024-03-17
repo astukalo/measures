@@ -74,6 +74,6 @@ public class CsvProcessing {
     }
 
     private static String outputFilename(Measurement<?> measurement) {
-        return OUTPUT_DIR + "/" + "output-file" + measurement.getPartition() + ".csv";
+        return OUTPUT_DIR + "/" + "output-file-" + measurement.getPartition() + ".csv";
     }
 }
